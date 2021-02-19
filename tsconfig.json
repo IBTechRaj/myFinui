@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "ESNEXT",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "typeRoots": ["./types", "node_modules/@types"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true
+  },
+  "include": ["src"],
+  "typedocOptions": {
+    "entryPoints": ["src/index.tsx", "src/common/", "src/app/", "src/redux/"],
+    "out": "typedocs"
+  }
+}
